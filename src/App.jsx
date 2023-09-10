@@ -9,6 +9,9 @@ import From from "./componet/From"
 import UseRef from "./componet/UseRef"
 import SetAttribute from "./componet/SetAttribute"
 import InputElement from "./componet/InputElement"
+import CssChange from "./componet/CssChange"
+import PersistedMutable from "./componet/PersistedMutable "
+import Api from "./componet/Api"
 
 function App() {
   const itemObj={
@@ -34,6 +37,9 @@ function App() {
       <UseRef/>
       <SetAttribute/>
       <InputElement/>
+      <CssChange/>
+      <PersistedMutable/>
+      <Api/>
     </>
   )
 }
