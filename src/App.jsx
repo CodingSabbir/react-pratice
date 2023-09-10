@@ -7,6 +7,8 @@ import TarnaryOparetor from "./componet/TarnaryOparetor"
 import Event from "./componet/Event"
 import From from "./componet/From"
 import UseRef from "./componet/UseRef"
+import SetAttribute from "./componet/SetAttribute"
+import InputElement from "./componet/InputElement"
 
 function App() {
   const itemObj={
@@ -30,6 +32,8 @@ function App() {
       <Event/>
       <From/>
       <UseRef/>
+      <SetAttribute/>
+      <InputElement/>
     </>
   )
 }
